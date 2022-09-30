@@ -7,8 +7,9 @@ public class Car {
         speed = 0.0;
     }
 
-    void refuel(double amount){
-        fuel += amount;
+    void refuel(FuelTank tank){
+        if(tank.type.name.equals(fuelType.name)) fuel += tank.amount;
+        else System.err.println("I cannot use" + tank.type.name + "with a car with" + fuelType.name);
     }
 
     void accelerate(double amount){
