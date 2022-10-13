@@ -9,6 +9,13 @@
             "name": "Launch runner",
             "request": "launch",
             "mainClass": "runner",
+            "projectName": "PO1_6b69d450"
+        },
+        {
+            "type": "java",
+            "name": "Launch runner",
+            "request": "launch",
+            "mainClass": "runner",
             "projectName": "PO1_eca5918c"
         },
         {
