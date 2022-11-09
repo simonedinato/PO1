@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Runner",
+            "request": "launch",
+            "mainClass": "Runner",
+            "projectName": "PO1_c011dfd4"
+        },
+        {
+            "type": "java",
             "name": "Launch runner",
             "request": "launch",
             "mainClass": "runner",

@@ -1,4 +1,4 @@
-package it.unive.dais.po1.bicycles;
+package it.unive.dais.po1.vehicle.bicycle;
 
 public class Bicycle {
 
